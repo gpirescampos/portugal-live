@@ -1,0 +1,33 @@
+{
+  "stations": [
+    {
+      "attributes": { "AirQualityStationEoICode": "PT01021", "AQStationName": "Estação de exemplo", "stationClass": 2 },
+      "geometry": { "x": -8.64, "y": 41.20 }
+    }
+  ],
+  "readings": [
+    {
+      "Samplingpoint": "PT/SPO-PT01021_00005_100",
+      "Pollutant": 5,
+      "Start": "2026-09-24T09:00:00Z",
+      "Value": 12.5,
+      "Unit": "ug.m-3",
+      "AggType": "hour",
+      "Validity": 1,
+      "Verification": 3,
+      "ResultTime": "2026-09-24T10:00:00Z",
+      "DataCapture": null
+    },
+    {
+      "Samplingpoint": "PT/SPO-PT01021_00010_100",
+      "Pollutant": 10,
+      "Start": "2026-09-24T09:00:00Z",
+      "Value": 0.8,
+      "Unit": "mg.m-3",
+      "AggType": "hour",
+      "Validity": -99,
+      "Verification": 3,
+      "ResultTime": "2026-09-24T10:00:00Z"
+    }
+  ]
+}

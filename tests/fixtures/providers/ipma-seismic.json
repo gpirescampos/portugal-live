@@ -1,0 +1,31 @@
+{
+  "idArea": 7,
+  "country": "PT",
+  "lastSismicActivityDate": "2026-09-22T07:00:00",
+  "updateDate": "2026-09-22T07:00:00",
+  "owner": "IPMA",
+  "data": [
+    {
+      "sismoId": "20260922010101C",
+      "time": "2026-09-22T01:01:01",
+      "lat": "38.5570",
+      "lon": "-9.1350",
+      "magnitud": "1.9",
+      "depth": 7,
+      "magType": "L",
+      "obsRegion": "SW Seixal",
+      "dataUpdate": "2026-09-22T07:00:00"
+    },
+    {
+      "sismoId": "",
+      "time": "2026-09-22T02:02:02",
+      "lat": "38.6000",
+      "lon": "-9.1000",
+      "magnitud": "-99.0",
+      "depth": 5,
+      "magType": "L",
+      "obsRegion": "unknown",
+      "dataUpdate": "2026-09-22T07:00:00"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "stations": [
+    { "id": "PT001", "name": "Estação Exemplo", "longitude": -8.61, "latitude": 41.15, "stationType": "urbana", "region": "Norte" },
+    { "id": "BAD", "name": "Coordenada inválida", "longitude": 220, "latitude": 41 }
+  ],
+  "readings": [
+    { "stationId": "PT001", "pollutant": "PM10", "value": 12.4, "unit": "µg/m³", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T09:00:00Z", "status": "validado" },
+    { "stationId": "PT001", "pollutant": "PM10", "value": 10.1, "unit": "µg/m³", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T08:00:00Z", "status": "preliminar" },
+    { "stationId": "PT001", "pollutant": "O3", "value": 0.04, "unit": "mg/m³", "averagingPeriod": "8 horas", "observedAt": "2026-09-24T09:00:00Z" },
+    { "stationId": "MISSING", "pollutant": "NO2", "value": 8, "unit": "µg/m³", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T09:00:00Z" },
+    { "stationId": "PT001", "pollutant": "NOISE", "value": 0, "unit": "x", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T09:00:00Z" },
+    { "stationId": "PT001", "pollutant": "NO2", "value": -999, "unit": "µg/m³", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T09:00:00Z" },
+    { "stationId": "PT001", "pollutant": "SO2", "value": 0, "unit": "µg/m³", "averagingPeriod": "1 hora", "observedAt": "2026-09-24T09:00:00Z", "status": "-99" },
+    { "stationId": "PT001", "pollutant": "CO", "value": 2, "unit": "mg/m³", "averagingPeriod": "1 dia", "observedAt": "2026-09-23T00:00:00+01:00" }
+  ]
+}

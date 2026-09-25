@@ -1,0 +1,10 @@
+{
+  "idArea": 3,
+  "country": "PT",
+  "updateDate": "2026-09-22T07:00:00",
+  "owner": "IPMA",
+  "data": [
+    {"sismoId":"valid-1","time":"2026-09-22T01:00:00","lat":"38.7","lon":"-27.1","magnitud":"2.1","depth":8},
+    {"sismoId":"bad-1","time":"bad","lat":"999","lon":"-27.1","magnitud":"x","depth":null}
+  ]
+}

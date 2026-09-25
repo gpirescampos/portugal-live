@@ -1,0 +1,31 @@
+{
+  "name": "portugal-live",
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "scripts": {
+    "dev": "vite",
+    "broker:dev": "node --env-file-if-exists=.env.broker.local --experimental-strip-types broker/dev.ts",
+    "build": "tsc --noEmit && vite build",
+    "check:client-secrets": "node scripts/scan-client-secrets.mjs",
+    "test": "node --experimental-strip-types --test tests/unit/*.test.ts tests/unit/*.test.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/core": "2.1.1",
+    "@zip.js/zip.js": "2.7.70",
+    "cesium": "1.132.0",
+    "hyparquet": "1.31.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "typescript": "5.9.2",
+    "vite": "8.3.0",
+    "vite-plugin-cesium": "1.2.23"
+  }
+}

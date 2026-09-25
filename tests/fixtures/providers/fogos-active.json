@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "fixture-incident-001",
+      "coords": true,
+      "lat": 40.36119,
+      "lng": -7.621623,
+      "district": "Guarda",
+      "concelho": "Seia",
+      "freguesia": "São Romão",
+      "natureza": "Mato",
+      "status": "Em Curso",
+      "active": true,
+      "dateTime": { "sec": 1790068620 },
+      "updated": { "sec": 1790068800 },
+      "man": 3,
+      "terrain": 1,
+      "aerial": 0,
+      "meios_aquaticos": 0
+    }
+  ]
+}

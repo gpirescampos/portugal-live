@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Persistência de valores elevados da temperatura máxima.",
+    "awarenessTypeName": "Tempo Quente",
+    "idAreaAviso": "LIS",
+    "startTime": "2026-09-22T00:00:00",
+    "awarenessLevelID": "yellow",
+    "endTime": "2026-09-23T18:00:00"
+  }
+]

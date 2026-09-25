@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "numberReturned": 4,
+  "features": [
+    { "type": "Feature", "id": "152-303", "geometry": { "type": "Point", "coordinates": [-9.16325, 38.700194] }, "properties": { "id": "152-303", "codp": 152, "id_mar": 303, "title": "Lisboa - Alcântara", "eu_lau_code": "PT_110660_2", "category": "2", "last_date_time": "2026-09-24T21:35:00Z", "last_sea_surface_height": 1.555 } },
+    { "type": "Feature", "id": "152-303", "geometry": { "type": "Point", "coordinates": [-9.16325, 38.700194] }, "properties": { "id": "152-303", "codp": 152, "id_mar": 303, "title": "Lisboa - Alcântara", "eu_lau_code": "PT_110660_2", "category": "2", "last_date_time": "2026-09-24T21:34:00Z", "last_sea_surface_height": 1.552 } },
+    { "type": "Feature", "id": "999-001", "geometry": { "type": "Point", "coordinates": [-8.0, 39.0] }, "properties": { "id": "999-001", "title": "Sem leitura", "last_date_time": null, "last_sea_surface_height": null } },
+    { "type": "Feature", "id": "bad-id", "geometry": { "type": "Point", "coordinates": [300, 39.0] }, "properties": { "id": "bad-id", "title": "Invalid record", "last_date_time": "2026-09-24T21:35:00Z", "last_sea_surface_height": 0 } }
+  ]
+}
